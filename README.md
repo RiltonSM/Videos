@@ -1,69 +1,36 @@
-# Nome do produto
-> Descrição curta sobre o que seu projeto faz.
+# Videos
+> Uma aplicação web desenvolvida com ReactJS que consume a API do Youtube.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+Esta aplicação foi desenvolvida com ReactJS e foi utilizado o SemanticUI para estilização dos componentes. Esta aplicação permite a visualização de vídeos do youtube a partir do consume da Youtube Data API. Há um campo de texto no canto superior, o qual permite que os dados da pesquisa sejam enseridos, ao pressionar o "Enter", a requisição será feita e será retornado 5 vídeos. Para realizar a requisição, será necessário adicionar uma chave (KEY) válida, isso pode ser feito criando um arquivo chamado token.js na pasta src/apis
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-
-![](../header.png)
 
 ## Instalação
 
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Exemplo de uso
-
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado. Adicione blocos de códigos e, se necessário, screenshots.
-
-_Para mais exemplos, consulte a [Wiki][wiki]._ 
+Este aplicativo não possui nenhum deploy, caso desejar contribuir para o desenvolvimento siga para a próxima seção.
 
 ## Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Para fazer a instalação das dependências, baixe os arquivos que compõe o projeto. Será necessário ter o NodeJS instalado na sua máquina. No terminal, acesse a pasta em que os arquivos estão e digite o seguinte código:
 
 ```sh
-make install
-npm test
+npm install
 ```
+
+Será feito a instalação de todas as dependências do projeto
 
 ## Histórico de lançamentos
 
-* 0.2.1
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
 * 0.0.1
     * Trabalho em andamento
 
 ## Meta
 
-Seu Nome – [@SeuNome](https://twitter.com/...) – SeuEmail@exemplo.com
+Rilton Moreira – rilton_moreira@hotmail.com
 
-Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
-
-[https://github.com/yourname/github-link](https://github.com/othonalberto/)
 
 ## Contributing
 
-1. Faça o _fork_ do projeto (<https://github.com/yourname/yourproject/fork>)
+1. Faça o _fork_ do projeto (<https://github.com/RiltonSM/Mobile-Mines/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
 3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
 4. _Push_ (`git push origin feature/fooBar`)
@@ -75,3 +42,4 @@ Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/seunome/seuprojeto/wiki
+
